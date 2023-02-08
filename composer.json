@@ -1,0 +1,23 @@
+{
+    "name": "cfn/math-captcha",
+    "description": "A simple mathematical operation verification code library, written based on GD library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cfn",
+            "email": "cfn@leapy.cn"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "suggest": {
+        "ext-gd": "Required to use gd."
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MathCaptcha\\": "src/"
+        }
+    }
+}
