@@ -164,7 +164,7 @@ class Captcha
         // 获取数字2
         $num2 = rand(pow(10, $this->digits - 1), pow(10, $this->digits) - 1);
         // 返回结果
-        $this->str = $num1 . $operator . $num2 . "=";
+        $this->str = $num1 . $operator . $num2 . "=?";
         switch ($operator) {
             case '+':
                 return $num1 + $num2;
